@@ -5,7 +5,7 @@ Repository for HW assignments of Stat 133 (Fall 2017)
 - Student name: Lai  Wei
 - Github username: futuwei
 - Lab section: 101
-- GSI: Leia Organa
+- GSI: Omid Shams Solari
 
 -----
 
