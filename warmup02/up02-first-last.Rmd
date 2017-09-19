@@ -1,0 +1,40 @@
+---
+title: "up02-lai-wei"
+output: github_document
+---
+```{r}
+github <- 'https://github.com/ucb-stat133/stat133-hws-fall17/'
+repo <- 'raw/master/warmup02/data/nba2017-salary-points.RData'
+
+download.file(
+  url = paste0(github, repo),
+  destfile = "nba2017-salary-points.RData")
+
+# load the objects
+load("nba2017-salary-points.RData")
+
+# list the available objects
+ls()
+
+print (experience)
+exp = table(experience)
+histogram = hist(exp)
+histogram
+barplot(exp)
+
+print(salary)
+max(salary, na.rm = TRUE)
+min(salary, na.rm = TRUE)
+# mean
+mean(salary)
+# SD:
+sd(salary)
+summary(salary)
+
+print (team)
+teams = table(team)
+BOS_NUM = sum(team == "BOS")
+print (BOS_NUM)
+print ("Frequency of BOS: ")
+print (BOS_NUM / 440)
+```
