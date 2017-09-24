@@ -89,7 +89,9 @@ plot(points, salary, main="Scatterplot of Points and Salary",
   xlab="Points", ylab="Salary (in millions)")
 
 abline(a = b_0, b = b_1)
+text(2400, 25, label = "Regression")
 lines(lowess(x = points ,y= salary))
+text(2100, 17, label = "lowess")
 # Part 6
 
 e = salary - predicted

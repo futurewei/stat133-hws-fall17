@@ -125,7 +125,9 @@ plot(points, salary, main="Scatterplot of Points and Salary",
   xlab="Points", ylab="Salary (in millions)")
 
 abline(a = b_0, b = b_1)
+text(2400, 25, label = "Regression")
 lines(lowess(x = points ,y= salary))
+text(2100, 17, label = "lowess")
 ```
 
 ![](hw01-Lai-Wei_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-2-1.png)
