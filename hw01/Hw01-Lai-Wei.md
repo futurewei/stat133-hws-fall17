@@ -3,7 +3,7 @@ HW1
 
 ``` r
 # load data file
-load("nba2017-salary-points.RData")
+load("data/nba2017-salary-points.RData")
 ls()
 ```
 
@@ -42,7 +42,7 @@ plot(points, salary, main="Scatterplot of Points and Salary",
   xlab="Points", ylab="Salary (in millions)")
 ```
 
-![](hw1_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-1-1.png)
+![](hw01-Lai-Wei_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-1-1.png)
 
 ``` r
 # Part 3 manually do correlation
@@ -128,7 +128,7 @@ abline(a = b_0, b = b_1)
 lines(lowess(x = points ,y= salary))
 ```
 
-![](hw1_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-2-1.png)
+![](hw01-Lai-Wei_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-2-1.png)
 
 ``` r
 # Part 6
@@ -176,19 +176,19 @@ plot(experience, salary, main="Scatterplot with lowess smooth",
 lines(lowess(x = experience ,y= salary))
 ```
 
-![](hw1_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-3-1.png)
+![](hw01-Lai-Wei_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-3-1.png)
 
 ``` r
 scatterplot3d(points, experience, salary)
 ```
 
-![](hw1_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-3-2.png)
+![](hw01-Lai-Wei_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-3-2.png)
 
 ``` r
 boxplot(salary~position)
 ```
 
-![](hw1_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-3-3.png)
+![](hw01-Lai-Wei_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-3-3.png)
 
 From the first graph we see that NBA player reach their salary peak after about 6-7 years experience, and then would have a rapid decrease.
 

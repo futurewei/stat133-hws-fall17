@@ -5,7 +5,7 @@ output: github_document
 
 ```{r}
 # load data file
-load("nba2017-salary-points.RData")
+load("data/nba2017-salary-points.RData")
 ls()
 
 #Part 1
