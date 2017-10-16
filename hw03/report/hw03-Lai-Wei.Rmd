@@ -49,18 +49,26 @@ ggplot(teams, aes(reorder(team, pc1), y = s1)) + geom_bar(stat='identity') + coo
 
 
 ```{r}
-#Was this your first time working on a project with such file structure? If yes, how do you feel about it?
-# Yes.
+# Was this your first time working on a project with such file structure? If yes, how do
+#you feel about it?
+# no
+# Was this your first time using relative paths? If yes, can you tell why they are important
+#for reproducibility purposes?
+# no, I'm cs major.
+# because when sharing code with others, it can fit their laptop path
+# Was this your first time using an R script? If yes, what do you think about just writing
+#code? # no
+# What things were hard, even though you saw them in class/lab?
+# PCA is hard
+# What was easy(-ish) even though we haven’t done it in class/lab?
+# all hard
+# Did anyone help you completing the assignment? If so, who?
+# no
+# How much time did it take to complete this HW?
+# 4 hours
+# What was the most time consuming part?
+# PCA 
 
-#Was this your first time using relative paths? If yes, can you tell why they are important for reproducibility purposes?
-# No.we used relative path in exams as well.
-
-#Was this your first time using  R script? If yes, what do you think about just writing code?
-# No.
-
-#What things were hard, even though you saw them in class/lab?
-# I have no idea about PCA
-
-#Was was easy?
- # merging is easy
+# Was there anything interesting?
+# no
 ```
