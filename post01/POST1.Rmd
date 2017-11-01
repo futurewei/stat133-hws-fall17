@@ -100,3 +100,19 @@ Map-reduce to disk and Spark to memory:https://www.tutorialspoint.com/apache_spa
 
 ### Conclusion
 In the above discussion, I analyzed the syntax simplicity and run time speed advanatge, its direct connection to database, and its strong usage in big data processing. The functionalities go way beyond what's covered in class where we only play around with a couple of simple data frames and run on single machine. When it comes to distributed system dealing with millions of data, dyplyr's importance would truly shine due to its speed and simplicity.
+
+### reference:
+
+https://www.tutorialspoint.com/apache_spark/apache_spark_rdd.htm 
+
+http://zevross.com/blog/2014/03/26/four-reasons-why-you-should-check-out-the-r-package-dplyr-3/
+
+https://spark.rstudio.com/dplyr.html
+
+https://blog.exploratory.io/why-sql-is-not-for-analysis-but-dplyr-is-5e180fef6aa7 
+
+http://genomicsclass.github.io/book/pages/dplyr_tutorial.html
+
+https://pandas.pydata.org/pandas-docs/stable/indexing.html
+
+https://www.w3schools.com/sql/sql_and_or.asp
