@@ -1,0 +1,19 @@
+---
+title: "lab4"
+output: html_document
+---
+
+```{r}
+my_table1 <- data.frame(
+  Player = c("Thompson", "Curry", "Green", "Durant", "Pachulia"),
+  Position = c("SG", "PG", "PF", "SF", "C"),
+  Salary = c(16663575	, 12112359, 15330435, 26540100, 2898000),
+  Points = c(1742, 1999, 776, 1555, 426),
+  PPG = c(22.3, 25.3, 10.2, 25.1, 6.1),
+  Rookie = c(FALSE, FALSE, FALSE, FALSE, FALSE)
+)
+
+ str(my_table1)
+ my_table1
+```
+
