@@ -12,11 +12,11 @@ Statistics is really all about analyzing data using various mathematical techniq
 
 For programming language like java, if one wants to filter out certain numbers in an array, he/she may need to do the below operation:
 
-![Caption for the picture.](/Users/laiwei/Desktop/stat133/stat133-hws-fall17/post01/img/C72505B6-D2F5-4BFB-890B-977D574B7218.png)
+![Caption for the picture.](img/C72505B6-D2F5-4BFB-890B-977D574B7218.png)
 
 Java for filtering:
 
-![Caption for the picture.](/Users/laiwei/Desktop/stat133/stat133-hws-fall17/post01/img/1D3422A5-0E5A-48F2-A93E-24341A5A97BE.png)
+![Caption for the picture.](img/1D3422A5-0E5A-48F2-A93E-24341A5A97BE.png)
 
 However, for dplyr we can simple do:
 
@@ -47,7 +47,7 @@ library(dplyr)
     ##     intersect, setdiff, setequal, union
 
 ``` r
-teams = read.csv("~/Desktop/stat133/stat133-hws-fall17/post01/data/teams.csv")
+teams = read.csv("data/teams.csv")
 # arrange order
 arranged_teams = arrange(teams, desc(salary))
 ```
@@ -129,9 +129,9 @@ python on dataframe manipulation is almost as easy as in R's dplyr. However, it'
 
 Below are a few examples about python dataframe from <https://pandas.pydata.org/pandas-docs/stable/indexing.html>:
 
-![Caption for the picture.](/Users/laiwei/Desktop/stat133/stat133-hws-fall17/post01/img/pd.png)
+![Caption for the picture.](img/pd.png)
 
-![Caption for the picture.](/Users/laiwei/Desktop/stat133/stat133-hws-fall17/post01/img/pd2.png)
+![Caption for the picture.](img/pd2.png)
 
 ### Run Time
 
@@ -139,13 +139,13 @@ In addition to handy usage, dplyr also beats plain R functions in runtime speed.
 
 ### SQL vs Dplyr
 
-As many people may know, SQL is the most popular language in database manipulation. Its syntax is also not very diffciult. According to <https://www.w3schools.com/sql/sql_and_or.asp>, ![Caption for the picture.](/Users/laiwei/Desktop/stat133/stat133-hws-fall17/post01/img/sql_syt.png)
+As many people may know, SQL is the most popular language in database manipulation. Its syntax is also not very diffciult. According to <https://www.w3schools.com/sql/sql_and_or.asp>, ![Caption for the picture.](img/sql_syt.png)
 
 But why isn't SQL chosen as a data analytic lanaguge but R and dplyr? I found one interesting article online explaining the reason: <https://blog.exploratory.io/why-sql-is-not-for-analysis-but-dplyr-is-5e180fef6aa7> .
 
 Bascially, the author claims that syntax complexity is one of the major difference. Although SQL rule is pretty easy, but it can get very nested when there's heavy computation. For example:
 
-![Caption for the picture.](/Users/laiwei/Desktop/stat133/stat133-hws-fall17/post01/img/sql_dplyr.png)
+![Caption for the picture.](img/sql_dplyr.png)
 
 Clearly, SQL becomes a mess while Dplyr stays elegant. I believe there's also run time complexity advantage in dplyr behind the syntax, but it's not revealed in this post.
 
@@ -153,13 +153,13 @@ Clearly, SQL becomes a mess while Dplyr stays elegant. I believe there's also ru
 
 Dplyr demonstrates strong usage in big data processing. For example, sparkly is a package that allows analytics to connect to Spark from R. Spark is a big data processing platform which extends data manipulation into a distributed system that has excellent efficiency.
 
-![Caption for the picture.](/Users/laiwei/Desktop/stat133/stat133-hws-fall17/post01/img/sparkly.png)
+![Caption for the picture.](img/sparkly.png)
 
 The usage of dplyr not only makes big data engineer’s job as easy as possible but also allow optimization in computation. According to <https://spark.rstudio.com/dplyr.html>, an important property of dplyr is its laziness. It would only execute until the moment when programmer hits run. img. Here, laziness is actually a good thing. The program driver is able to know the big picture after seeing the whole sequence of data operations and thus set up the best computational graph that speeds up the calculation.
 
-![Caption for the picture.](/Users/laiwei/Desktop/stat133/stat133-hws-fall17/post01/img/map_red.png)
+![Caption for the picture.](img/map_red.png)
 
-![Caption for the picture.](/Users/laiwei/Desktop/stat133/stat133-hws-fall17/post01/img/Spark.png)
+![Caption for the picture.](img/Spark.png)
 
 To understand why laziness plays such an important role we need to first understand how Spark works. Prior to the invention of Spark, hadoop is the framework that’s largely adopted by big data community. Hadoop uses map reduce and master-slave mechanism to do parallel computation on distributed system. However, hadoop needs to output its temporary results to disk and read it from disk to memory for each map-reduce phase it does. Usually, reading from disk has a high IO time. To improve efficiency, Berkeley invented Spark which is a lot of like Hadoop but instead saves intermediate results on memory.
 
