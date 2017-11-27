@@ -1,0 +1,801 @@
+'data.frame':	334 obs. of  16 variables:
+ $ HW1: num  100 85 87.5 92.5 32.5 75 90 92.5 82.5 75 ...
+ $ HW2: num  100 95 100 100 NA 85 100 95 85 95 ...
+ $ HW3: num  100 100 85 100 65 92.5 97.5 100 92.5 95 ...
+ $ HW4: num  100 95 70 100 60 95 95 90 70 95 ...
+ $ HW5: num  100 95 100 96.2 NA ...
+ $ HW6: num  100 95 98 99 46 91 80 72 NA 96 ...
+ $ HW7: num  100 100 NA 100 NA NA 52 95 84 NA ...
+ $ HW8: num  100 100 80 92.5 NA NA 90 74.5 90 100 ...
+ $ HW9: num  100 100 NA 95 NA 90 90 100 95 98 ...
+ $ ATT: int  12 12 7 12 5 9 12 12 12 12 ...
+ $ QZ1: num  12 11 10 8 5 11 11 10 11 7 ...
+ $ QZ2: int  18 16 10 16 9 17 9 8 18 10 ...
+ $ QZ3: num  20 18 10 13 NA NA 15 12 14 13 ...
+ $ QZ4: int  20 19 NA 13 NA 15 18 13 19 16 ...
+ $ EX1: num  80 57.6 56.8 69.6 40 73.6 78.4 52 80 63.2 ...
+ $ EX2: num  90 74.7 54.9 58 16.2 ...
+$minimum
+[1] 0
+
+$percent10
+ 10% 
+62.5 
+
+$quartile1
+25% 
+ 75 
+
+$median
+[1] 85
+
+$mean
+[1] 81.43231
+
+$quartile3
+ 75% 
+92.5 
+
+$percent90
+90% 
+ 95 
+
+$maximum
+[1] 100
+
+$range
+[1] 100
+
+$stdev
+[1] 15.99079
+
+$missing
+[1] 9
+
+minimum  : 0.0000
+percent10: 62.5000
+quartile1: 75.0000
+median   : 85.0000
+mean     : 81.4323
+quartile3: 92.5000
+percent90: 95.0000
+maximum  : 100.0000
+range    : 100.0000
+stdev    : 15.9908
+missing  : 9.0000
+NULL
+$minimum
+[1] 0
+
+$percent10
+10% 
+ 70 
+
+$quartile1
+ 25% 
+80.5 
+
+$median
+[1] 95
+
+$mean
+[1] 88.23408
+
+$quartile3
+75% 
+100 
+
+$percent90
+90% 
+100 
+
+$maximum
+[1] 100
+
+$range
+[1] 100
+
+$stdev
+[1] 15.945
+
+$missing
+[1] 20
+
+minimum  : 0.0000
+percent10: 70.0000
+quartile1: 80.5000
+median   : 95.0000
+mean     : 88.2341
+quartile3: 100.0000
+percent90: 100.0000
+maximum  : 100.0000
+range    : 100.0000
+stdev    : 15.9450
+missing  : 20.0000
+NULL
+$minimum
+[1] 0
+
+$percent10
+ 10% 
+77.5 
+
+$quartile1
+ 25% 
+87.5 
+
+$median
+[1] 95
+
+$mean
+[1] 90.99969
+
+$quartile3
+75% 
+100 
+
+$percent90
+90% 
+100 
+
+$maximum
+[1] 100
+
+$range
+[1] 100
+
+$stdev
+[1] 13.9676
+
+$missing
+[1] 11
+
+minimum  : 0.0000
+percent10: 77.5000
+quartile1: 87.5000
+median   : 95.0000
+mean     : 90.9997
+quartile3: 100.0000
+percent90: 100.0000
+maximum  : 100.0000
+range    : 100.0000
+stdev    : 13.9676
+missing  : 11.0000
+NULL
+$minimum
+[1] 0
+
+$percent10
+ 10% 
+60.5 
+
+$quartile1
+ 25% 
+77.5 
+
+$median
+[1] 90
+
+$mean
+[1] 84.60256
+
+$quartile3
+75% 
+100 
+
+$percent90
+90% 
+100 
+
+$maximum
+[1] 100
+
+$range
+[1] 100
+
+$stdev
+[1] 18.38978
+
+$missing
+[1] 22
+
+minimum  : 0.0000
+percent10: 60.5000
+quartile1: 77.5000
+median   : 90.0000
+mean     : 84.6026
+quartile3: 100.0000
+percent90: 100.0000
+maximum  : 100.0000
+range    : 100.0000
+stdev    : 18.3898
+missing  : 22.0000
+NULL
+$minimum
+[1] 0
+
+$percent10
+  10% 
+76.75 
+
+$quartile1
+25% 
+ 90 
+
+$median
+[1] 96.25
+
+$mean
+[1] 92.12698
+
+$quartile3
+75% 
+100 
+
+$percent90
+90% 
+100 
+
+$maximum
+[1] 100
+
+$range
+[1] 100
+
+$stdev
+[1] 13.92934
+
+$missing
+[1] 19
+
+minimum  : 0.0000
+percent10: 76.7500
+quartile1: 90.0000
+median   : 96.2500
+mean     : 92.1270
+quartile3: 100.0000
+percent90: 100.0000
+maximum  : 100.0000
+range    : 100.0000
+stdev    : 13.9293
+missing  : 19.0000
+NULL
+$minimum
+[1] 0
+
+$percent10
+10% 
+ 72 
+
+$quartile1
+25% 
+ 86 
+
+$median
+[1] 94
+
+$mean
+[1] 87.99042
+
+$quartile3
+75% 
+ 99 
+
+$percent90
+90% 
+100 
+
+$maximum
+[1] 100
+
+$range
+[1] 100
+
+$stdev
+[1] 18.56477
+
+$missing
+[1] 21
+
+minimum  : 0.0000
+percent10: 72.0000
+quartile1: 86.0000
+median   : 94.0000
+mean     : 87.9904
+quartile3: 99.0000
+percent90: 100.0000
+maximum  : 100.0000
+range    : 100.0000
+stdev    : 18.5648
+missing  : 21.0000
+NULL
+$minimum
+[1] 0
+
+$percent10
+10% 
+ 65 
+
+$quartile1
+   25% 
+80.625 
+
+$median
+[1] 92
+
+$mean
+[1] 85.9183
+
+$quartile3
+75% 
+100 
+
+$percent90
+90% 
+100 
+
+$maximum
+[1] 100
+
+$range
+[1] 100
+
+$stdev
+[1] 19.74364
+
+$missing
+[1] 28
+
+minimum  : 0.0000
+percent10: 65.0000
+quartile1: 80.6250
+median   : 92.0000
+mean     : 85.9183
+quartile3: 100.0000
+percent90: 100.0000
+maximum  : 100.0000
+range    : 100.0000
+stdev    : 19.7436
+missing  : 28.0000
+NULL
+$minimum
+[1] 0
+
+$percent10
+10% 
+ 68 
+
+$quartile1
+25% 
+ 80 
+
+$median
+[1] 90
+
+$mean
+[1] 86.08147
+
+$quartile3
+75% 
+100 
+
+$percent90
+90% 
+100 
+
+$maximum
+[1] 100
+
+$range
+[1] 100
+
+$stdev
+[1] 18.76044
+
+$missing
+[1] 21
+
+minimum  : 0.0000
+percent10: 68.0000
+quartile1: 80.0000
+median   : 90.0000
+mean     : 86.0815
+quartile3: 100.0000
+percent90: 100.0000
+maximum  : 100.0000
+range    : 100.0000
+stdev    : 18.7604
+missing  : 21.0000
+NULL
+$minimum
+[1] 0
+
+$percent10
+10% 
+ 70 
+
+$quartile1
+25% 
+ 80 
+
+$median
+[1] 90
+
+$mean
+[1] 86.90224
+
+$quartile3
+75% 
+100 
+
+$percent90
+90% 
+100 
+
+$maximum
+[1] 100
+
+$range
+[1] 100
+
+$stdev
+[1] 15.74268
+
+$missing
+[1] 22
+
+minimum  : 0.0000
+percent10: 70.0000
+quartile1: 80.0000
+median   : 90.0000
+mean     : 86.9022
+quartile3: 100.0000
+percent90: 100.0000
+maximum  : 100.0000
+range    : 100.0000
+stdev    : 15.7427
+missing  : 22.0000
+NULL
+$minimum
+[1] 3
+
+$percent10
+10% 
+ 10 
+
+$quartile1
+25% 
+ 11 
+
+$median
+[1] 12
+
+$mean
+[1] 11.4012
+
+$quartile3
+75% 
+ 12 
+
+$percent90
+90% 
+ 12 
+
+$maximum
+[1] 12
+
+$range
+[1] 9
+
+$stdev
+[1] 1.380081
+
+$missing
+[1] 0
+
+minimum  : 3.0000
+percent10: 10.0000
+quartile1: 11.0000
+median   : 12.0000
+mean     : 11.4012
+quartile3: 12.0000
+percent90: 12.0000
+maximum  : 12.0000
+range    : 9.0000
+stdev    : 1.3801
+missing  : 0.0000
+NULL
+$minimum
+[1] 0
+
+$percent10
+10% 
+  6 
+
+$quartile1
+25% 
+  8 
+
+$median
+[1] 10
+
+$mean
+[1] 9.453453
+
+$quartile3
+75% 
+ 11 
+
+$percent90
+90% 
+ 12 
+
+$maximum
+[1] 12
+
+$range
+[1] 12
+
+$stdev
+[1] 2.244826
+
+$missing
+[1] 1
+
+minimum  : 0.0000
+percent10: 6.0000
+quartile1: 8.0000
+median   : 10.0000
+mean     : 9.4535
+quartile3: 11.0000
+percent90: 12.0000
+maximum  : 12.0000
+range    : 12.0000
+stdev    : 2.2448
+missing  : 1.0000
+NULL
+$minimum
+[1] 0
+
+$percent10
+10% 
+  7 
+
+$quartile1
+25% 
+ 10 
+
+$median
+[1] 13
+
+$mean
+[1] 12.6192
+
+$quartile3
+75% 
+ 16 
+
+$percent90
+90% 
+ 18 
+
+$maximum
+[1] 18
+
+$range
+[1] 18
+
+$stdev
+[1] 4.176301
+
+$missing
+[1] 11
+
+minimum  : 0.0000
+percent10: 7.0000
+quartile1: 10.0000
+median   : 13.0000
+mean     : 12.6192
+quartile3: 16.0000
+percent90: 18.0000
+maximum  : 18.0000
+range    : 18.0000
+stdev    : 4.1763
+missing  : 11.0000
+NULL
+$minimum
+[1] 0
+
+$percent10
+10% 
+  7 
+
+$quartile1
+25% 
+ 11 
+
+$median
+[1] 14
+
+$mean
+[1] 13.07006
+
+$quartile3
+75% 
+ 16 
+
+$percent90
+90% 
+ 18 
+
+$maximum
+[1] 20
+
+$range
+[1] 20
+
+$stdev
+[1] 4.093343
+
+$missing
+[1] 20
+
+minimum  : 0.0000
+percent10: 7.0000
+quartile1: 11.0000
+median   : 14.0000
+mean     : 13.0701
+quartile3: 16.0000
+percent90: 18.0000
+maximum  : 20.0000
+range    : 20.0000
+stdev    : 4.0933
+missing  : 20.0000
+NULL
+$minimum
+[1] 0
+
+$percent10
+10% 
+ 10 
+
+$quartile1
+25% 
+ 14 
+
+$median
+[1] 17
+
+$mean
+[1] 15.97143
+
+$quartile3
+75% 
+ 19 
+
+$percent90
+90% 
+ 20 
+
+$maximum
+[1] 20
+
+$range
+[1] 20
+
+$stdev
+[1] 4.224113
+
+$missing
+[1] 19
+
+minimum  : 0.0000
+percent10: 10.0000
+quartile1: 14.0000
+median   : 17.0000
+mean     : 15.9714
+quartile3: 19.0000
+percent90: 20.0000
+maximum  : 20.0000
+range    : 20.0000
+stdev    : 4.2241
+missing  : 19.0000
+NULL
+$minimum
+[1] 14.4
+
+$percent10
+ 10% 
+42.4 
+
+$quartile1
+ 25% 
+55.2 
+
+$median
+[1] 64
+
+$mean
+[1] 60.73102
+
+$quartile3
+ 75% 
+69.6 
+
+$percent90
+  90% 
+74.96 
+
+$maximum
+[1] 80
+
+$range
+[1] 65.6
+
+$stdev
+[1] 12.70576
+
+$missing
+[1] 0
+
+minimum  : 14.4000
+percent10: 42.4000
+quartile1: 55.2000
+median   : 64.0000
+mean     : 60.7310
+quartile3: 69.6000
+percent90: 74.9600
+maximum  : 80.0000
+range    : 65.6000
+stdev    : 12.7058
+missing  : 0.0000
+NULL
+$minimum
+[1] 12.6
+
+$percent10
+   10% 
+41.085 
+
+$quartile1
+ 25% 
+56.7 
+
+$median
+[1] 66.6
+
+$mean
+[1] 63.99027
+
+$quartile3
+  75% 
+75.15 
+
+$percent90
+   90% 
+80.415 
+
+$maximum
+[1] 90
+
+$range
+[1] 77.4
+
+$stdev
+[1] 15.7235
+
+$missing
+[1] 0
+
+minimum  : 12.6000
+percent10: 41.0850
+quartile1: 56.7000
+median   : 66.6000
+mean     : 63.9903
+quartile3: 75.1500
+percent90: 80.4150
+maximum  : 90.0000
+range    : 77.4000
+stdev    : 15.7235
+missing  : 0.0000
+NULL
