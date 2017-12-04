@@ -1,6 +1,6 @@
 ---
 title: "Post2"
-output: github_document
+output: html_document
 ---
 
 #                              Simple&Fast Web Data Tool: Shiny
